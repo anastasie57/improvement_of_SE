@@ -94,7 +94,6 @@ def sort_frequency_dict(dictionary, method): ## function of sorting and printing
 			dict_file.write(case + str(dictionary[case]))
 	else:
 		return False
-
 	return True
 
 decoder(".") ## decode all files with logs in this folder
